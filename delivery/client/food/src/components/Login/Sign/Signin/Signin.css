@@ -1,0 +1,14 @@
+.InputArea {
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+   justify-content: space-evenly;
+   
+}
+
+
+.UserAlert {
+    font-size: 12px;
+    text-align: center;
+    color: red;
+}

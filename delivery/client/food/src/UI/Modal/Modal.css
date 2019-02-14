@@ -1,0 +1,30 @@
+.Modal {
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    width: 40%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    left: 33%;
+    top: 30%;
+    margin:auto;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    overflow-y: auto;
+    height: 40%;
+    padding: 60px;
+}
+
+.button {
+    color: #02b3e4;
+    border: 1px solid #02b3e4;
+    background: white;
+    margin-top: 30px;
+    width: 160px;
+}
+
+.button:hover {
+    background:#02b3e4;
+    color: white;
+    width: 160px;
+}

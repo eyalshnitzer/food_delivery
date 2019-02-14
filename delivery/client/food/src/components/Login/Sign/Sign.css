@@ -1,0 +1,68 @@
+.Title {
+    font-size: 32px;
+    margin: 20px;
+    font-family: inherit;
+    color: #02b3e4;
+
+    
+    
+}
+
+.SigninPage {
+    
+    background: #f4f4ef;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top:100px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+
+.FormArea {
+    
+    
+    box-shadow: 1px 2px 4px  rgb(190, 190, 190);
+    display: flex;
+    flex-flow: column;
+    /* z-index: 3; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background: white;
+    width: 800px;
+    padding-bottom: 40px;
+
+}
+
+.FormAreaTitels {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    cursor: pointer;
+    
+
+}
+
+.FormAreaTitels div {
+    /* border-bottom: 1px solid rgb(207, 206, 206);  */
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.FormAreaSigninTitle {
+    border-right: 1px solid rgb(207, 206, 206);
+    border-bottom: 1px solid transparent;
+    
+}
+
+.FormAreaSignupTitle {
+    border-bottom: 1px solid  rgb(207, 206, 206);
+}
+
+

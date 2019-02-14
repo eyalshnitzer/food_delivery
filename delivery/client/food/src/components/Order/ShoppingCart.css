@@ -1,0 +1,40 @@
+.main {
+    margin-top: 8.5rem;
+}
+
+.title {
+    color:#02b3e4;
+    margin: 50px;
+    font-size: 36px;
+}
+
+.button {
+   
+    background:white;
+    border: 1px solid #02b3e4;
+    color: #02b3e4;
+    width: 110px;
+}
+
+button:hover {
+    background: #02b3e4;
+    border: 1px solid #02b3e4;
+    color: white;
+    width: 110px;
+
+}
+
+.buttonsAndPrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.price {
+    border: 1px dotted rgb(133, 133, 133);
+    padding: 5px;
+}

@@ -1,0 +1,52 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 13px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    border-radius: .25rem;
+}
+
+.Disabled,.Disabled:hover {
+    background: rgb(145, 144, 144);
+    color:rgb(100, 100, 100) ;
+    border: 1px solid rgb(145, 144, 144);
+}
+
+.Ok {
+    color: #02b3e4;
+    border: 1px solid #02b3e4;
+}
+
+.Ok:hover {
+    background:#02b3e4;
+    color: white;
+    cursor: pointer;
+
+}
+.SignOut {
+    color: #02b3e4;
+    border: 1px solid #02b3e4;
+    padding: 5px;
+}
+
+.SignOut:hover {
+    background:#02b3e4;
+    color: white;
+    padding: 5px;
+}
+
+.Cancel {
+    color: black;
+    border: 1px solid  black;
+}
+
+.ButtonWidth,
+.ButtonWidth:hover {
+    width: 470px;
+}
+

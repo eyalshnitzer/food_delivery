@@ -1,0 +1,30 @@
+.NavigationItem {
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;   
+}
+ 
+.NavLink {
+    align-items: center;
+    background:white;
+    height: 100%;
+    padding: 10px;
+    border-bottom: 4px solid transparent;
+    box-sizing: border-box;
+    display: block;
+    text-decoration: none;
+    color: #525c65;
+    font-size: 13px;
+}
+
+.NavLink:hover,
+.NavLink:active,
+.NavLink.active {
+    line-height: 1rem;
+    color: #02b3e4;
+}
+
+
+
+

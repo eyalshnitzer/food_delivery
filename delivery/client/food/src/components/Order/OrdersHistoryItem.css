@@ -1,0 +1,9 @@
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+    border-bottom: 1px dotted rgb(129, 129, 129);
+    padding:20px;
+}

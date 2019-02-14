@@ -1,0 +1,11 @@
+.MenuItems {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 90%;
+    padding: 10px 0;
+    
+   
+    
+}

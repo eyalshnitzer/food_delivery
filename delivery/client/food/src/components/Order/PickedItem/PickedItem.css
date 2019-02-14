@@ -1,0 +1,47 @@
+ .PickedItem {
+   
+    padding: 30px;
+} 
+
+.Title {
+    
+    font-size: 46px;
+    margin-top: 7rem;
+    
+}
+
+.ButtonsDiv {
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonsAndPrice {
+    margin:40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    margin: 40px;
+    background:white;
+    border: 1px solid #02b3e4;
+    color: #02b3e4;
+    padding: 5px;
+    cursor: pointer;
+    width: 110px;
+}
+
+.buttonDisabled,
+.buttonDisabled:hover {
+    margin: 40px;
+    padding: 5px;
+    border:1px solid rgb(145, 144, 144);
+    background: rgb(145, 144, 144);
+    color:rgb(100, 100, 100) ;
+    width: 110px;
+
+}
+
+

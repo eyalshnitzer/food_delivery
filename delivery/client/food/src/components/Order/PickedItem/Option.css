@@ -1,0 +1,34 @@
+.Chosen {
+ padding: 10px;
+ margin: 5px;
+ background:#02b3e4 ;
+ border: 1px solid #02b3e4;
+color: white ;
+width: 100px;
+ }
+
+.notChosen {
+ padding: 5px;
+ margin: 5px;
+ background: white ;
+ border: 1px solid #02b3e4;
+ color: #02b3e4;
+ width: 110px;
+} 
+
+.Option {
+    color: #525c65;
+    padding: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dotted rgb(161, 161, 161);
+    width: 90%;
+    margin: 0px auto;
+}
+
+.Chosen:hover,
+.notChosen:hover {
+    cursor: pointer;
+}
